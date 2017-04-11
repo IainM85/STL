@@ -8,6 +8,7 @@ namespace Interfaces
 {
     public interface IModule
     {
+        // TODO : Fix Error
         IShip ShipFitted { get; set; }
 
         string Name { get; set; }
@@ -25,10 +26,10 @@ namespace Interfaces
 
         decimal PowerRequired { get; }
         decimal CapacitorUsed { get; }
-        // TODO - Not sure what this is
-        decimal PowerAsg { get; }
-        decimal Integrity { get; }
-        bool Upgradeable { get; }
+        // TODO - Not sure what this is : Needs Review
+        decimal PowerAsg { get; }       //HunterK: Comment: Power Assigned to Module. Need to incorporate min/max power available - possibly tie in with upgrades
+        decimal Integrity { get; }      //HunterK: Comment: Refers to integrity of module hull (an idea to incorporate hull breach e.g. start with 10 when 0, then breached and leaking 02) - May be redundant
+        bool Upgradeable { get; }       //HunterK: Comment: Can the module be upgraded - propably should be its own class=/interface associated with the module
 
         IEnumerable<IContainable> Containables { get; set; }
 
