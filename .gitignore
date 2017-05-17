@@ -7,6 +7,16 @@
 *.userosscache
 *.sln.docstates
 
+# =============== #
+# Unity generated #
+# =============== #
+[Tt]emp/
+[Oo]bj/
+[Bb]uild
+/[Ll]ibrary/
+sysinfo.txt
+*.stackdump
+
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
