@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
+
 
 namespace Interfaces
 {
@@ -15,6 +15,8 @@ namespace Interfaces
 
 
         public IEnumerable<IHardpoint> Hardpoints { get; set; }
+        public IEnumerable<IArmourType> Armours { get; set; }
+        public IEnumerable<IModule> Modules { get; set; }
 
         public decimal Hitpoints { get; set; }
 
