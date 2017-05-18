@@ -11,8 +11,12 @@ namespace Interfaces
         public StartingShip()
         {
             Hardpoints = new List<IHardpoint>();
+            Armours = new List<IArmourType>();
+            Modules = new List<IModule>();
+            ActionBars = new List<IActionBar>();
         }
 
+       public  List<IActionBar> ActionBars { get; set; }
 
         public IEnumerable<IHardpoint> Hardpoints { get; set; }
         public IEnumerable<IArmourType> Armours { get; set; }

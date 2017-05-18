@@ -15,6 +15,8 @@ namespace Interfaces
 
         IEnumerable<IModule> Modules { get; set; }
 
+        List<IActionBar> ActionBars { get; set; }
+
 
     }
 }

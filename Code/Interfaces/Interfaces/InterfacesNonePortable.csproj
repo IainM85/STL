@@ -7,7 +7,7 @@
     <ProjectGuid>{64FF52FB-DB8C-48EA-AF7A-FB7C347D78FD}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>InterfacesNonePortable</RootNamespace>
+    <RootNamespace>Interfaces</RootNamespace>
     <AssemblyName>InterfacesNonePortable</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -45,6 +45,7 @@
     <Compile Include="Enum\PlanetSurfaceType.cs" />
     <Compile Include="Enum\PlanetType.cs" />
     <Compile Include="Enum\StarType.cs" />
+    <Compile Include="Interfaces\IActionBar.cs" />
     <Compile Include="Interfaces\IArmourType.cs" />
     <Compile Include="Interfaces\IContainable.cs" />
     <Compile Include="Interfaces\IContainer.cs" />
@@ -56,6 +57,8 @@
     <Compile Include="Interfaces\IShip.cs" />
     <Compile Include="Interfaces\IStar.cs" />
     <Compile Include="Interfaces\IUniverse.cs" />
+    <Compile Include="Models\ActionBar.cs" />
+    <Compile Include="Models\ActionType.cs" />
     <Compile Include="Models\Damage.cs" />
     <Compile Include="Models\GalaxyNormal.cs" />
     <Compile Include="Models\GameState.cs" />
