@@ -12,8 +12,11 @@ namespace Interfaces
             ActionReadyAmount = 100f;
             ActionAmount = 0f;
             ActionRatePerSecond = 5f; // One action every 20 seconds
+            Name = "General";
         }
 
+
+        public string Name { get; set; }
 
         public List<ActionType> ActionsAvailable { get; set; }
 

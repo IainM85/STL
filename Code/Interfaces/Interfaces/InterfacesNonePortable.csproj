@@ -63,6 +63,13 @@
     <Compile Include="Models\GalaxyNormal.cs" />
     <Compile Include="Models\GameState.cs" />
     <Compile Include="Models\MenuState.cs" />
+    <Compile Include="Models\Modules\BaseModule.cs" />
+    <Compile Include="Models\Modules\ConcussionBlast.cs" />
+    <Compile Include="Models\Modules\DriveBooster.cs" />
+    <Compile Include="Models\Modules\PassengerQuarters.cs" />
+    <Compile Include="Models\Modules\CargoBay.cs" />
+    <Compile Include="Models\Modules\MagneticAttracter.cs" />
+    <Compile Include="Models\Modules\BoardingClamps.cs" />
     <Compile Include="Models\Player.cs" />
     <Compile Include="Models\StarNormal.cs" />
     <Compile Include="Models\StartingShip.cs" />

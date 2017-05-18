@@ -7,6 +7,8 @@ namespace Interfaces
 {
     public interface IActionBar
     {
+        string Name { get; set; }
+
         List<ActionType> ActionsAvailable { get; set; }
 
         float ActionReadyAmount { get; set; }
